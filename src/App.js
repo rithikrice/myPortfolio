@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import BgImage from "./assets/img/parallex/background.webp";
 import Skills from './pages/skills/skills.component';
 import Experience from './pages/experience/experience.component';
+import ProjectTimeline from './components/project-timeline/project-timeline.component'
 
 //components
 import MyNavbar from "./components/my-navbar/mynavbar.component";
@@ -66,6 +67,20 @@ const App=() => {
       </Container>
   
       </div>
+      {/* Projects section */}
+      
+      <div>
+    
+      <Container className="container-box rounded">
+        <Slide duration={2500}>
+        <hr />
+        <ProjectTimeline />
+        
+        </ Slide>
+      
+      </Container>
+  
+      </div> 
     </div>
   );
 }
