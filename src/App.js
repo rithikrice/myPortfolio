@@ -7,6 +7,14 @@ import BgImage from "./assets/img/parallex/background.webp";
 import Skills from './pages/skills/skills.component';
 import Experience from './pages/experience/experience.component';
 import ProjectTimeline from './components/project-timeline/project-timeline.component'
+import Contact from './pages/contact-form/contact-form.component'
+
+import FooterPanel from './components/footer/footer.component'
+
+
+import Particles from 'react-particles-js'
+import { particlesOptions } from "./particlesOptions";
+
 
 //components
 import MyNavbar from "./components/my-navbar/mynavbar.component";
@@ -18,11 +26,11 @@ import './App.css';
 
 const App=() => {
   return (
-    <div className="App" style={ { position: "relative" } }> 
+    <div style={ { position: "relative" } }> 
       <MyNavbar />
       <MyCarousal />
       <TitleMessage />
-      
+      <Particles className="particles particles-box" params={particlesOptions} />
       {/* about me section */}
       <div>
       
@@ -81,6 +89,20 @@ const App=() => {
       </Container>
   
       </div> 
+      {/* Contact */}
+      <div>
+    
+      <Container className="container-box rounded">
+        <Fade duration={2500}>
+          <hr />
+        <Contact />
+        </ Fade>
+      
+      </Container>
+  
+      </div>
+      <hr />
+      <FooterPanel />
     </div>
   );
 }

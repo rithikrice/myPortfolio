@@ -27,7 +27,7 @@ const MyTitleMessage = styled.h1`
 
     .sub {
       font-size: 27px;
-      letter-spacing: 2px;
+      letter-spacing: 1.5px;
     }
   }
 `;
@@ -50,7 +50,7 @@ const TitleMessage = () => {
               strings: ["Web Developer", "Cuber", "Learner"],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 100
             }}
           />
         </div>

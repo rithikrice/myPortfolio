@@ -1,9 +1,14 @@
 .logo {
-    width: 25%;
+    width: 20%;
   }
   
   .nav-theme {
-    background-color: #101018f8;
+    background: #6BE8FA;
+    background: -webkit-linear-gradient(left, #6BE8FA, #E5A3AE);
+    background: -moz-linear-gradient(left, #6BE8FA, #E5A3AE);
+    background: linear-gradient(to right, #6BE8FA, #E5A3AE);
     font-size: 20px;
   }
+  /* #b8b8d6fb */
+
   
