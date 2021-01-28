@@ -1,9 +1,11 @@
 import React from "react";
 import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container';
 import BgImage from "./assets/img/parallex/background.webp";
 import Skills from './pages/skills/skills.component';
+import Experience from './pages/experience/experience.component';
 
 //components
 import MyNavbar from "./components/my-navbar/mynavbar.component";
@@ -43,8 +45,22 @@ const App=() => {
       <div>
     
       <Container className="container-box rounded">
-        <Fade duration={2500}>
+        <Slide duration={2500}>
+        <hr />
         <Skills />
+        
+        </ Slide>
+      
+      </Container>
+  
+      </div>
+      {/* Experience */}
+      <div>
+    
+      <Container className="container-box rounded">
+        <Fade duration={2500}>
+          <hr />
+        <Experience />
         </ Fade>
       
       </Container>
