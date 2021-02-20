@@ -34,13 +34,13 @@ const ProjectTimeline = () => {
             <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
             <Timeline>
                 <Events>
-                    {/* Project: Todo List With MUI */}
+                    {/* Project: React Firebase Chat App */}
         <ImageEvent
-            date="Present"
+            date="Dec '20"
             className="text-center"
-            text="React ToDo App"
-            src={L_ReactToDoList}
-            alt="React ToDo App"
+            text="React Firebase Chat App"
+            // src={L_ReactToDoList}
+            // alt="React Firebase Chat App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -56,59 +56,60 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> This is a Chat App created with React and Firebase
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
+                          <li>Authentication Sign in Page</li>
+                          <li>Powered by React</li>
                           <li>Responsive Design</li>
+                          <li>Interactive and very handy to use</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
-                              <Image
+                              {/* <Image
                                 src={L_HTML5}
                                 alt="HTML 5"
                                 rounded
                                 className="image-style m-1"
-                              ></Image>{" "}
+                              ></Image>{" "} */}
                               HTML5
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image
+                              {/* <Image
                                 src={L_CSS3}
                                 alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
-                              ></Image>{" "}
+                              ></Image>{" "} */}
                               CSS3
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image
+                              {/* <Image
                                 src={L_REACT}
                                 alt="React"
                                 rounded
                                 className="image-style1 m-1"
-                              ></Image>{" "}
+                              ></Image>{" "} */}
                               React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image
+                              {/* <Image
                                 src={L_MATERIALUI}
                                 alt="Material-UI"
                                 rounded
                                 className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
+                              ></Image>{" "} */}
+                              Firebase
                             </span>
                           </li>
                           
@@ -119,14 +120,14 @@ const ProjectTimeline = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
+                {/* <UrlButton
                   href=""
                   target="_blank"
                 >
                   SEE LIVE
-                </UrlButton>
+                </UrlButton> */}
                 <UrlButton
-                  href=""
+                  href="https://github.com/rithikrice/react-firebase"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -136,13 +137,13 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
             
-{/* Project: MERN Tip Calculator */}
+{/* Project: Realtime Chat App */}
 <ImageEvent
-            date="Present"
+            date="Jan '21"
             className="text-center"
-            text="MERN Tip Calculator"
-            src={L_MernTipCalc}
-            alt="MERN Tip Calculator"
+            text="Realtime Chat App"
+            // src={L_MernTipCalc}
+            // alt="Realtime Chat App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -158,64 +159,63 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
+                        <strong>Description:</strong> This app connects like minded people in programming community.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Enter amount upto your desire</li>
+                          <li>HTML is not a Programming Language(wink-wink)</li>
                           <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
+                          <li>Styled with Vanilla js</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
                           <li>
                             <span className="p-2">
-                              <Image
+                              {/* <Image
                                 src={L_REACT}
                                 alt="React"
                                 rounded
                                 className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
+                              ></Image>{" "} */}
+                              Vanilla JS
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image
+                              {/* <Image
                                 src={L_NODE_JS}
                                 alt="Node.js"
                                 rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
+                                className="image-style1 m-1" */}
+                              {/* ></Image>{" "} */}
                               Node.js
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image
+                              {/* <Image
                                 src={L_EXPRESS}
                                 alt="Express"
                                 rounded
                                 className="image-style1 m-1"
-                              ></Image>{" "}
+                              ></Image>{" "} */}
                               Express
                               
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
-                              <Image
+                              {/* <Image
                                 src={L_MONGODB}
                                 alt="MongoDB"
                                 rounded
                                 className="image-style1 m-1"
-                              ></Image>{" "}
-                              MongoDB
+                              ></Image>{" "} */}
+                              Socket
                             </span>
                           </li>
-                          <li>
+                          {/* <li>
                             <span className="p-2">
                               <Image
                                 src={L_MATERIALUI}
@@ -225,7 +225,7 @@ const ProjectTimeline = () => {
                               ></Image>{" "}
                               Material-UI
                             </span>
-                          </li>
+                          </li> */}
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -233,14 +233,14 @@ const ProjectTimeline = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
+                {/* <UrlButton
                   href=""
                   target="_blank"
                 >
                   SEE LIVE
-                </UrlButton>
+                </UrlButton> */}
                 <UrlButton
-                  href=""
+                  href="https://github.com/rithikrice/Realtime-Chat-App"
                   target="_blank"
                 >
                   SOURCE CODE
